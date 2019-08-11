@@ -1,0 +1,77 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+.wrapper > * {
+  padding: 50px;
+  flex: 1 100%;
+}
+
+.main {
+  text-align: left;
+  background: rgb(0, 238, 255);
+}
+.aside-1 {
+  background: rgb(191, 241, 150);
+}
+.aside-2 {
+  background: rgb(245, 201, 216);
+}
+.aside {
+  flex: 1 0 0;
+}
+.main {
+  flex: 3 0px;
+}
+.aside-1 {
+  order: 1;
+}
+.main {
+  order: 2;
+}
+.aside-2 {
+  order: 3;
+}
+.footer {
+  order: 4;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+  padding: 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.media-object {
+  margin-right: 1em;
+}
+.media-body {
+  flex: 1;
+}
+.media-heading {
+  margin: 0 0 0.5em;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 30px 0;
+}
+
+td,
+th {
+  border: 1px solid #333;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(odd) {
+  background: #f4f7f8;
+}
+tr:nth-child(even) {
+  background-color: #e4d4d4;
+}

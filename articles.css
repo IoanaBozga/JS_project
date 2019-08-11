@@ -1,0 +1,19 @@
+  .articles-box {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .articles-box .art1 {
+    background-color: #acacac;
+  }
+  .articles-box .art2 {
+    background-color: #ccc;
+  }
+  .articles-box .art3 {
+    background-color: #dddddd;
+    
+  }
+  .articles-box h2,
+  .articles-box p {
+    text-align: center;
+  }
